@@ -1,5 +1,10 @@
 # Compiling Kismet Capture for OpenWrt
 
+This guide should help those who are trying to install the old kismet-drone package
+on OpenWrt. I tested this on my Netgear R6700 v2 using OpenWrt 23.05.4 and Kismet 2023-07-R1.
+Websockets worked fine, but I have not tested SSL yet. I also compiled this for the
+Linksys E8450 with no issues.
+
 To follow this guide, you'll need to have access to a Debian-based Linux distro. Ubuntu on WSL works fine.
 Most of these commands will be run relative to the OpenWrt source directory.
 
