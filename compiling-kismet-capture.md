@@ -1,6 +1,7 @@
 # Compiling Kismet Capture for OpenWrt
 
 To follow this guide, you'll need to have access to a Debian-based Linux distro. Ubuntu on WSL works fine.
+Most of these command will be run relative to the OpenWrt source directory.
 
 ## Prepare Build Environment
 Install packages for Debian system:
@@ -11,7 +12,7 @@ gcc-multilib g++-multilib gettext git libncurses5-dev libssl-dev \
 python3-setuptools rsync swig unzip zlib1g-dev file wget
 ```
 
-Get sources (note: we are using the kismet-packages repot):
+Get sources (Note: we are using the kismet-packages repot):
 ```bash
 git clone https://github.com/openwrt/openwrt.git
 git clone https://github.com/kismetwireless/kismet-packages.git
