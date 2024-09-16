@@ -1,7 +1,7 @@
 # Compiling Kismet Capture for OpenWrt
 
 To follow this guide, you'll need to have access to a Debian-based Linux distro. Ubuntu on WSL works fine.
-Most of these command will be run relative to the OpenWrt source directory.
+Most of these commands will be run relative to the OpenWrt source directory.
 
 ## Prepare Build Environment
 Install packages for Debian system:
